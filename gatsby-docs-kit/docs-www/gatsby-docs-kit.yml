@@ -3,40 +3,81 @@
   url: /
   file: pages/landing.js
 
-- title: DOCS
+- title: Introduction
   dir: ../docs
-  url: docs
+  url: Introduction
   sidemenu:
-    - title: Getting Started
-      dir: getting-started
+    - title: Introduction
+      dir: Introduction
       items:
-        - title: Overview
-          file: introduction.md
-        - title: Installation
-          file: installation.md
-        - title: Creating your site
-          file: creating-site.md
-        - title: Publishing your site
-          file: publishing.md
-    - title: Guides
-      dir: guides
+        - title: What This Repo Is
+          file: 1.1--What-This-Repo-Is.md
+        - title: Why I Live Code
+          file: 1.2--Why-I-Live-Code.md
+        - title: Why SuperCollider
+          file: 1.3--Why-SuperCollider.md
+        - title: How To use This Repo
+          file: 1.4--How-To-Use-This-Repo.md
+    - title: Basics
+      dir: Basics
       items:
-        - title: Markdown features
-          file: markdown-features.md
-        - title: Custom markdown pages
-          file: custom-markdown-pages.md
-        - title: Custom Gatsby page
-          file: custom-gatsby-page.md
-        - title: Custom Markdown template
-          file: custom-markdown-template.md
-        - title: Custom layout
-          file: custom-layout.md
-    - title: API
-      dir: api
+        - title: Recommended Addons
+          file: 2.1--Recommended-Addons.md
+        - title: Why ProxySpace
+          file: 2.2--Why-ProxySpace.md
+        - title: Setup Code - Making Performance Easier
+          file: 2.3--Setup-Code-Making-Performance-Easier.md
+        - title: Pbinds and Patterns
+          file: 2.4--Pbinds-and-Patterns.md
+    - title: Rhythm
+      dir: Rhythm
       items:
-        - title: CLI commands
-          file: cli-commands.md
-        - title: Navigation config
-          file: pages-config.md
-        - title: Gatsby config
-          file: gatsby-config.md
+        - title: Rhythmic Construction
+          file: 3.1--Rhythmic-Construction-For-Algorave-Sets.md
+        - title: Basic Rhythms
+          file: 3.2--Basic-Rhythms.md
+        - title: Modifying Rhythm
+          file: 3.3--Techniques-For-Modifying-Rhythm.md
+        - title: Euclidean Rhythms
+          file: 3.4--Euclidean-Rhythms.md
+        - title: StageLimiter Abuse
+          file: 3.5--StageLimiter-Abuse.md
+        - title: L-Systems For Rhythm
+          file: 3.6--L-Systems-For-Rhythm.md
+        - title: Looping
+          file: 3.7--Looping.md
+    - title: Melody and Pitch
+      dir: Melody-and-Pitch
+      items:
+        - title: Pitch and Patterns
+          file: 4.1--Pitch-And-Patterns.md
+        - title: Types of Pitch Arrangement
+          file: 4.2--Types-of-Pitch-Arrangement.md
+        - title: Riffs
+          file: 4.3--Riffs.md
+        - title: Pitch and Static Synths
+          file: 4.4--Pitch-and-Static-Synths.md
+        - title: Between Pitch and Noise
+          file: 4.5--Between-Pitch-And-Noise.md
+        - title: Synthdef Writing For This Repo
+          file: 4.6--Good-SynthDef-Writing-for-co34pt_LiveCode.md
+        - title: Using MIDI
+          file: 4.7--MIDI.md
+    - title: Non-Pattern Techniques
+      dir: Non-pattern-Techniques
+      items:
+        - title: Drones
+          file: 5.1--Drones.md
+        - title: Supercollider as a Modular Synth
+          file: 5.2--SuperCollider-as-a-Modular-Synth.md
+        - title: Adding Effects
+          file: 5.3--Adding-Effects.md
+    - title: Visuals And Data
+      dir: Visuals-And-Data
+      items:
+        - title: FreqScope and Visuals
+          file: 6.1--FreqScope-and-Visuals.md
+        - title: OSC and Data Streams
+          file: 6.2--OSC-and-Data-Streams.md
+        - title: Using Datasets
+          file: 6.3--Using-Datasets.md

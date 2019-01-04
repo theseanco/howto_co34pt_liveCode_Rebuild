@@ -1,3 +1,0 @@
-# Custom Markdown template
-
-@TODO
