@@ -3,9 +3,9 @@
   url: /
   file: pages/landing.js
 
-- title: Introduction
+- title: Docs
   dir: ../docs
-  url: Introduction
+  url: docs
   sidemenu:
     - title: Introduction
       dir: Introduction
